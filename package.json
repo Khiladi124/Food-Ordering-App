@@ -1,0 +1,53 @@
+{
+  "name": "bhojan",
+  "version": "1.0.0",
+  "description": "this is a food ordering app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khiladi124/Food-Ordering-App.git"
+  },
+  "keywords": [
+    "Zomato",
+    "Swiggy",
+    "Food",
+    "Order"
+  ],
+  "author": "Abhishek Gangwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khiladi124/Food-Ordering-App/issues"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "homepage": "https://github.com/Khiladi124/Food-Ordering-App#readme",
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "https-browserify": "^1.0.0",
+    "parcel": "^2.11.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3",
+    "util": "^0.12.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.3"
+  },
+  "main": "app.js"
+}
